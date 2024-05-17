@@ -1,0 +1,84 @@
+.aboutUsContainer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #f0f0f0;
+  width: 940px;
+  margin: 20px 269px;
+  height: 100%;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.backBtn,
+.languageButton {
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.backBtn {
+  float: inline-end;
+  width: 75px;
+}
+.languageButton {
+  width: 100px;
+  height: 40px;
+}
+.descriptionContainer {
+  position: relative;
+}
+.descriptionContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-size: cover;
+  width: 800px;
+  margin: -11px auto;
+  padding: 40px;
+  margin-bottom: 5px; 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  line-height: 1.7;
+}
+.aboutUsOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(155, 172, 166, 0.72);
+  border-radius: 10px;
+  z-index: 1; /* Ensure overlay is behind the description */
+}
+.description,
+.aboutUstitles,
+.mission {
+  text-align: center;
+  margin: 0 auto 30px;
+  color: #000;
+  font-size: 25px;
+}
+.aboutUstitles {
+  border-bottom: 2px solid #e6e6e6;
+  width: 20%;
+  font-size: 35px;
+  text-align: initial;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.description {
+  color: #000; 
+  text-align: left;
+  position: relative;
+  z-index: 2; /* Ensure description is above the overlay */
+}

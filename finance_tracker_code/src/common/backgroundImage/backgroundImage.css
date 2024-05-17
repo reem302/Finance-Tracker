@@ -1,0 +1,31 @@
+.image {
+  display: flex;
+  width: 50%;
+  background-image: url("../../../public//images/backgroundImage.png");
+  align-items: center;
+}
+.logoContainer {
+  position: relative;
+  z-index: 3;
+  background-color: rgba(18, 37, 31, 0.72);
+  /* rgb(184 184 184 / 72%) */
+  padding: 220px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  flex-grow: 5;
+  justify-content: space-between;
+}
+.logoImage {
+  width: 250px;
+  height: 250px;
+}
+.welcomeBackTitle {
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}

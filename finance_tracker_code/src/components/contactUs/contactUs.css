@@ -1,0 +1,83 @@
+.contactUsContainer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #f0f0f0;
+  width: 940px;
+  margin: 20px 269px;
+}
+.buttonsContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.languageButton {
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 700px;
+  margin: 12px auto;
+  padding: 40px;
+  border-radius: 10px;
+  border: 10px solid #045542;
+  background-color: #e6e6e6;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.contactUsTitle,
+.getInTouch {
+  text-align: center;
+  margin: 0 auto 30px;
+  color: #333;
+}
+.contactUsTitle {
+  border-bottom: 2px solid #e6e6e6;
+  width: 300px;
+  font-size: 35px;
+}
+.getInTouch {
+  font-size: 25px;
+}
+.formGroup {
+  margin-bottom: 20px;
+}
+.inputField,
+.messageInput,
+.submitButton {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+.inputField,
+.messageInput {
+  border: 2px solid #c7c5c5;
+}
+.inputField {
+  width: 270px;
+}
+.messageInput {
+  width: 275px;
+  height: 150px;
+}
+.submitButton {
+  width: 300px;
+  background-color: #045542;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submitButton:hover {
+  background-color: #024037;
+}
