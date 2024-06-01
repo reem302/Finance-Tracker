@@ -1,0 +1,59 @@
+.header {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  width: 21.1%;
+  top: 0;
+  z-index: 1000;
+}
+.logoImg {
+  width: 70px;
+  height: auto;
+}
+.leftSideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-right: 1px solid #e6e6e6;
+}
+.menulist {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+.menuitem {
+  background: #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  width: 150px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+.menuitem a {
+  text-decoration: none;
+  color: #045542;
+}
+.menuitem:hover {
+  background: #d0d0d0;
+}
+.logOut {
+  background-color: #045542;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 140px;
+  max-width: 200px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .leftSideBar {
+    max-width: none; /* Remove max-width for smaller screens */
+  }
+}

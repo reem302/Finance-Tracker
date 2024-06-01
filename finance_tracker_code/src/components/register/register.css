@@ -1,0 +1,92 @@
+.registerContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: "Roboto", sans-serif;
+}
+.signInContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+  gap: 25px;
+  background-color: #f4f4f4;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.centerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.registeItem {
+  display: flex;
+  margin: 15px 0px;
+  gap: 15px;
+  align-items: center;
+}
+.form {
+  padding: 10px;
+}
+.registerInput {
+  width: 280px;
+  height: 30px;
+  border: 2px solid #e6e6e6;
+  margin: 5px 0px 6px;
+  border-radius: 5px;
+}
+.langContainer {
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0 #e6e6e6;
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 10px;
+}
+.backButton {
+  margin: 5px;
+  float: inline-end;
+  width: 75px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.registerButton {
+  width: 370px;
+  height: 45px;
+  font-size: var(--font-size-base);
+  color: #fff;
+  text-align: center;
+  background-color: #045542;
+  border-radius: 3px;
+}
+.signInlink {
+  color: #045542;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.welcomeTitle {
+  font-size: 25px;
+  color: #71717a;
+  padding: 0px 8px;
+  text-align: left;
+  margin: 10px 0px;
+}
+.registerTitle {
+  font-size: 30px;
+  padding: 0px 8px;
+}
+.name {
+  color: #045542;
+}
+.inputsTitle {
+  margin-left: 2px;
+}

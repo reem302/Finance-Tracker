@@ -1,0 +1,122 @@
+.homePageContainer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: #f0f0f0;
+  margin: auto;
+  height: auto;
+  padding: 20px;
+  width: auto;
+}
+.imageContainer {
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 100%;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(19, 33, 28, 0.72);
+  border-radius: 10px;
+  z-index: 1;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 35px;
+  border-radius: 10px;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.welcomeText {
+  position: relative;
+  z-index: 2;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.titleContent {
+  font-size: 25px;
+  color: white;
+  z-index: 2;
+  margin-top: 20px;
+}
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #045542;
+  color: white;
+  margin-top: 60px;
+  border-radius: 10px;
+  text-align: center;
+  height: 120px;
+}
+.introText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 25px;
+}
+.signUpText{
+  margin-top: 10px;
+}
+.rectangleContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.rectangle {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 210px;
+  background-color: #e6e6e6;
+  margin: 0 50px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+.featureContent {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.getStartedButton {
+  width: 370px;
+  height: 45px;
+  font-size: var(--font-size-base);
+  color: #fff;
+  text-align: center;
+  background-color: #045542;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-decoration: none;
+  line-height: 45px;
+}
+
+
