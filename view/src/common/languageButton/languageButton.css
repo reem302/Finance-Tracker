@@ -1,0 +1,16 @@
+.langButton {
+  display: flex;
+  justify-content: flex-end;
+}
+.selectedLanguage {
+  margin: 5px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  border: 0 #ededed;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}

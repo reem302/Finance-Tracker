@@ -1,0 +1,115 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001; /* To ensure it's above darkBG */
+}
+.modal {
+  width: 600px;
+  height: auto;
+  background: white;
+  color: #2c3e50;
+  z-index: 1002;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.modalHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+.contactUsTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+.closeBtn {
+  position: absolute;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.3s ease;
+}
+.closeBtn:hover .closeIcon {
+  color: #e74c3c;
+}
+.modalContent {
+  padding: 10px;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+.contactUsImage {
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.getInTouch {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+.formGroup {
+  margin-bottom: 1rem;
+}
+.inputField {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+.inputField:focus {
+  border-color: #045542;
+  outline: none;
+}
+.messageInput {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  height: 150px;
+}
+.messageInput:focus {
+  border-color: #045542;
+  outline: none;
+}
+.submitButton {
+  width: 530px;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  color: white;
+  background: #045542;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 1rem;
+}
+.submitButton:hover {
+  background: #034434;
+}
+.closeIcon {
+  font-size: 1.5rem;
+}
