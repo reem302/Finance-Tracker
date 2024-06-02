@@ -81,7 +81,7 @@ export default class BarChart extends Component {
         },
         {
           label: "Next Payment",
-          data: paymentData.w
+          data: paymentData.nextPayment,
           backgroundColor: "rgba(129, 170, 160, 0.6)",
           borderColor: "rgba(129, 170, 160)",
           borderWidth: 1,
