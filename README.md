@@ -41,6 +41,9 @@ In addition to its core functionality, Finance-Tracker includes the following fe
 ```npm install password-validator```
 
 
-- **Chart.js Integration**: Finance-Tracker utilizes Chart.js to visualize data using bar charts and Doughnut charts, enhancing the user experience and providing clear insights into financial trends. To install chart.js, run: ```npm install chart.js```
+- **Chart.js Integration**: Finance-Tracker utilizes Chart.js-2 to visualize data using bar charts and Doughnut charts, enhancing the user experience and providing clear insights into financial trends. To install chart.js, run: ```npm i react-chartjs-2```
+
+
+- **MUI Icons**: Incorporation of Material-UI (MUI) icons enhances the visual appeal and usability of the application by providing a wide range of icons. To install MUI icons, run: ```npm install @mui/icons-material```
 
 By incorporating these additional features, Finance-Tracker aims to provide user-friendly platform for managing their finances effectively.
