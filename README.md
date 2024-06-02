@@ -7,7 +7,7 @@ Finance-Tracker is a comprehensive website designed to assist users in managing 
 To get started with Finance-Tracker, follow these simple steps:
 
 1. Clone the repository:
-git clone https://github.com/reem302/Finance-Tracker
+```git clone https://github.com/reem302/Finance-Tracker```
 
 2. Install Dependencies:
 ```npm install```
