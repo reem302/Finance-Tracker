@@ -109,10 +109,9 @@ export default class ContactUs extends Component {
             </div>
             <div className="modalContent">
 
-              {/* Contact us image */}
               <div
                 className="contactUsImage"
-                style={{ backgroundImage: `url(${backgroundImage.path})` }}
+                style={{ backgroundColor: "#e6e6e6" }}
               >
 
                 {/* Extract inputs from JSON */}

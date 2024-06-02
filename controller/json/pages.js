@@ -87,11 +87,6 @@ const pages = {
     id: "3",
     title: "Contact Us",
     submitButton: "Submit",
-    backgroundImage: {
-      path: "/images/contactUsImage.jpg",
-      className: "contactForm",
-      alt: "contactUsImage",
-    },
   },
 
   aboutUs: {
