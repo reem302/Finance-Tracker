@@ -67,7 +67,7 @@ export default class DoughnutChart extends Component {
               if (label) {
                 label += ': ';
               }
-              label += tooltipItem.raw + '₪'; // Append shekel symbol to the raw value
+              label += "₪" + tooltipItem.raw ; // Append shekel symbol to the raw value
               return label;
             }
           },

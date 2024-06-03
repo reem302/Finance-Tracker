@@ -117,7 +117,7 @@ const pages = {
         data: "58,764.25 ₪",
       },
       {
-        content: "Current Account",
+        content: "Current Balance",
         data: "10,034.37 ₪",
       },
     ],
